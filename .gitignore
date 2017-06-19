@@ -45,6 +45,7 @@ build/
 # ==================
 Desktop.ini
 dist/
+package-lock.json
 
 # ===============================
 # Recycle Bin used on file shares
