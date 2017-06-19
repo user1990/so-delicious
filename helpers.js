@@ -1,3 +1,4 @@
+'use strict';
 /*
   This is a file of data and helper functions that we can expose and use in our templating function
 */

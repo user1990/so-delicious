@@ -1,5 +1,5 @@
 # ========
-# Packages 
+# Packages
 # ========
 *.dmg
 *.gz
@@ -10,7 +10,7 @@
 *.zip
 
 # ==================
-# Logs and databases 
+# Logs and databases
 # ==================
 *.log
 *.sql
@@ -19,7 +19,7 @@ logs
 npm-debug.log*
 
 # ==================
-# OS generated files 
+# OS generated files
 # ==================
 .DS_Store
 .DS_Store?
@@ -32,7 +32,7 @@ Thumbs.db
 .LSOverride
 
 # =============
-# Build Systems 
+# Build Systems
 # =============
 node_modules/
 bower_components
@@ -44,6 +44,7 @@ build/
 # Folder config file
 # ==================
 Desktop.ini
+dist/
 
 # ===============================
 # Recycle Bin used on file shares

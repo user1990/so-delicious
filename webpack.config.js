@@ -18,7 +18,7 @@ const javascript = {
   use: [{
     loader: 'babel-loader',
     options: { presets: ['es2015'] } // this is one way of passing options
-  }],
+  }]
 };
 
 /*
@@ -72,7 +72,7 @@ const config = {
   // plugins: [uglify]
   plugins: [
     // here is where we tell it to output our css to a separate file
-    new ExtractTextPlugin('style.css'),
+    new ExtractTextPlugin('style.css')
   ]
 };
 // webpack is cranky about some packages using a soon to be deprecated API. shhhhhhh
