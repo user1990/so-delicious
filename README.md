@@ -19,8 +19,10 @@ The application has three main models — Users, Stores and Reviews — all of w
 ## To Start
 
 To enable ES7 & ES8 features install latest Node.jS >= 8.1.2 version
+
 Install dependencies: ```npm install```
-Run app:: ```npm start```
+
+Run app: ```npm start```
 
 ### Database
 
