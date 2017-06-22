@@ -1,5 +1,9 @@
 ![restaurant](https://user-images.githubusercontent.com/13827656/27386429-7c5be802-569e-11e7-841e-782305cc3520.jpg)
 
+# Demo
+
+The app is deployed [here](https://tranquil-oasis-73683.herokuapp.com/) at Heroku.
+
 # So Delicious
 A full stack restaurant application which users can search, geolocate, review and curate their favourite restaurants from around the world.
 
