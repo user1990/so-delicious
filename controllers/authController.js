@@ -47,7 +47,7 @@ exports.forgot = async (req, res) => {
     subject: 'Password Reset',
     resetURL
   });
-  req.flash('success', `You have been emailed a password reset link.`);
+  req.flash('success', 'You have been emailed a password reset link.');
   // 4. redirect to login page
   res.redirect('/login');
 };
@@ -72,7 +72,7 @@ exports.confirmedPasswords = (req, res, next) => {
   }
   req.flash('error', 'Passwords do not match!');
   res.redirect('back');
-}
+};
 
 exports.update = async (req, res) => {
   const user = await User.findOne({
@@ -80,7 +80,7 @@ exports.update = async (req, res) => {
     resetPasswordExpires: { $gt: Date.now() }
   });
 
-   if (!user) {
+  if (!user) {
     req.flash('error', 'Password reset is invalid or has expired');
     return res.redirect('/login');
   }

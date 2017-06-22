@@ -8,7 +8,7 @@ const multerOptions = {
   storage: multer.memoryStorage(),
   fileFilter(req, file, next) {
     const isPhoto = file.mimetype.startsWith('image/');
-    if(isPhoto) {
+    if (isPhoto) {
       next(null, true);
     } else {
       next({ message: 'That filetype isn\'t allowed!' }, false);
@@ -71,7 +71,8 @@ exports.updateStore = async (req, res) => {
     new: true, // return the new store instead of the old one
     runValidators: true
   }).exec();
-  req.flash('success', `Successfully updated <strong>${store.name}</strong>. <a href="/stores/${store.slug}">View Store →</a>`);
+  req.flash('success', `Successfully updated <strong>${store.name}</strong>.
+  <a href="/stores/${store.slug}">View Store →</a>`);
   res.redirect(`/stores/${store._id}/edit`);
   // Redirect them the store and tell them it worked
 };
