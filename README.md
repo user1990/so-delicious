@@ -19,24 +19,34 @@ The application has three main models — Users, Stores and Reviews — all of w
 ## To Start
 
 To enable ES7 & ES8 features install latest Node.jS >= 8.1.2 version
+
 Install dependencies: ```npm install```
-Run app:: ```npm start```
+
+Run app: ```npm start```
 
 ### Database
 
-Sign Up to MongoLab and create new database with the user
-Add your MongoDB URI to variables.env configuration file located in root.
-DB URI Example: mongodb://<dbuser>:<dbpassword>@<host>:<port>/<dbname>
+Sign Up to mLab and create new database with the user
+
+Copy your MongoDB URI to variables.env configuration file located in root.
+
+Change ```dbuser``` and ```dbpassword``` with yours from mLab.
+
 Download MongoDB Compass - For interact/analize your data collections with full CRUD functionality.
 ### Send Email
 
 For sending email with Nodejs use Mailtrap.io — Fake smtp testing server.
+
 Go [here](https://mailtrap.io/) and Sign Up.
+
 In variables.env put your MAIL_USER & MAIL_PASS from mailtrap.io account.
 ### Google Maps
 
-Get API key from [here](https://developers.google.com/maps/documentation/javascript/get-api-key) and put in MAP_KEY const in variables.env file or
-use existing one if it's not expired yet.
+Get API key from [here](https://developers.google.com/maps/documentation/javascript/get-api-key).
+
+Put the key in MAP_KEY const in variables.env file.
+
+Or use existing one if it's not expired yet.
 ## FAQ
 
 ### The Google Maps API key isn't working
