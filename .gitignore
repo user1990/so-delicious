@@ -39,12 +39,12 @@ bower_components
 .sass-caches
 *.css.map
 build/
+dist/
 
 # ==================
 # Folder config file
 # ==================
 Desktop.ini
-dist
 package-lock.json
 
 # ===============================
