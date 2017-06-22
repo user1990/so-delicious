@@ -47,6 +47,19 @@ Get API key from [here](https://developers.google.com/maps/documentation/javascr
 Put the key in MAP_KEY const in variables.env file.
 
 Or use existing one if it's not expired yet.
+
+### Sample Data
+
+```bash
+npm run sample
+```
+
+If you have previously loaded in this data, you can wipe your database 100% clean with:
+
+```bash
+npm run blowitallaway
+```
+
 ## FAQ
 
 ### The Google Maps API key isn't working
